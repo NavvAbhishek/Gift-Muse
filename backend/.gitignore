@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment Variables (CRITICAL SECURITY)
+# You should never commit your secrets/API keys
+.env
+.env.local
+.env.*.local
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor Configuration
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+logs
+*.log
+logs/
+
+# Optional: Build output (if you use TypeScript or Babel later)
+dist/
+build/
